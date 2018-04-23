@@ -7,4 +7,4 @@ applications:
   buildpack: https://github.com/rhardt-pivotal/java-buildpack-signalfx
   env:
     SIGNALFX_ACCESS_TOKEN: 8675309jenny
-
+    SIGNALFX_ENABLE_SYSTEM_METRICS: true
