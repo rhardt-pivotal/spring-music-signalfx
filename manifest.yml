@@ -1,10 +1,9 @@
 ---
 applications:
-- name: spring-music-rob
+- name: spring-music-sfx
   memory: 2G
-  random-route: true
+  buildpack: binary_buildpack
   path: build/libs/spring-music.jar
-  buildpack: https://github.com/rhardt-pivotal/java-buildpack-signalfx
   env:
     SIGNALFX_ACCESS_TOKEN: 8675309jenny
     SIGNALFX_ENABLE_SYSTEM_METRICS: true
