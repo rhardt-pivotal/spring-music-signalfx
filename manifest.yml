@@ -1,6 +1,6 @@
 ---
 applications:
-- name: spring-music-sfx
+- name: spring-music-sfx-rob
   memory: 2G
   buildpack: binary_buildpack
   path: build/libs/spring-music.jar
@@ -8,3 +8,4 @@ applications:
     SIGNALFX_ACCESS_TOKEN: 8675309Jenny
     SIGNALFX_ENABLE_SYSTEM_METRICS: true
     JBP_CONFIG_JMX: '{enabled: true, port: 7199}'
+    ENABLE_JMX: true
