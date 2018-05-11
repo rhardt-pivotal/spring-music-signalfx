@@ -5,5 +5,6 @@ applications:
   buildpack: binary_buildpack
   path: build/libs/spring-music.jar
   env:
-    SIGNALFX_ACCESS_TOKEN: 8675309jenny
+    SIGNALFX_ACCESS_TOKEN: 8675309Jenny
     SIGNALFX_ENABLE_SYSTEM_METRICS: true
+    JBP_CONFIG_JMX: '{enabled: true, port: 7199}'
